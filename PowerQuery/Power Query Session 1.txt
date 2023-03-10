@@ -1,0 +1,51 @@
+Data Types In Power Query 
+
+
+		Number Data Types 
+		Text Data Type
+		Date and Time Data Types
+		Logical Data Types
+		Binary
+		
+
+Using Parameters We Can Dynamically  Assign or allocate Values 
+		We Use Parameters to filter data dynamically at Source level 
+
+
+		Creating Parameters
+				Goto Home Tab -> Manage Parameters -> 
+							Name : Region
+							
+							DType : Text
+							Type : List 
+										Central
+										East
+										West
+										South
+							
+							Save(Ok) 
+
+Assigning Parameter to Column 
+=============================
+				Select Region Column -> More Options -> Text Filters -> Equal -> Select Parameter
+
+
+
+Creating Dynamic Parameters
+===========================
+
+			
+			Step 1	Select Orders  on Queries Pane -> Right Click -> Click Duplicate 
+			Step 2	select Duplicate(Orders) -> Select "Sub Category" -> Right Click -> Select Remove Other Columns 
+			Step 3	Select Sub Category -> Right Click -> Remove Duplicates 
+			Step 4	Goto Transform -> Click Convert to List
+
+		Goto Home Tab -> Select Manage Parameters -> New Parameter
+							Name : SelectSubCat
+							Dtype : Text 
+							Type : Query
+									Select "Select Created List"
+
+			Goto Orders(Main) -> select "Sub Category" -> More Options -> Text Filter -> equal -> Paramter -> "SelectSubCat"
+
+
