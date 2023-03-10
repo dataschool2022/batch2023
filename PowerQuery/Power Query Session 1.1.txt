@@ -1,0 +1,25 @@
+Local PBIX File 
+			
+		Power Query Code + Power Pivot + Data + Metadata + Power View 
+
+
+OLTP : Online Transaction Processing (Live Application)
+OLAP : Online Analytical Processing (Data Wharehouse )
+
+
+Data Connectity Modes 
+			
+			Import 
+			Direct Query 
+			Live Connection
+
+Data Storage Modes
+
+			Import  (One Source )
+			Direct Query 
+			Mixed Mode ( compisite Mode ) 
+			
+
+
+"C:\Users\prave\Desktop\SuperStore Future.xlsx"
+C:\Users\prave\Desktop\Datasets and Materials\SuperStore2000.xlsx
