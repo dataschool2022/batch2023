@@ -1,0 +1,36 @@
+CSV : comma separated Values 
+
+
+sno,name,dob
+1,chinna,24-1-1995
+
+2	kumar		11-02-1992		
+
+|
+
+1-kumar-12/06/1995
+
+
+bsc
+ girls boys 
+
+
+students 
+
+student_id,name,gender,dob,course,fee_paid)
+
+
+				Total (Count)
+
+
+gender,course,total(Count),sum(fee_paid)
+Girls,BSC,21
+Boys,BSC,31
+
+
+		MAX, MIN , AVG,SUM,COUNT,MEDIAN,STD
+
+
+
+
+
