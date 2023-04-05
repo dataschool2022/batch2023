@@ -1,0 +1,94 @@
+Power Bi Service 
+================
+
+
+Pro User  $9.99 / Month / Per User / Data Refresh Upto 8 Times Per Day
+ 
+Premium User
+
+			Premium Per User / $20 Permonth / PerUser  // Data Refresh 48 Times Per Day
+			Premium Capacity  / $5000 / Per Capacity // Data Refresh 48 Times Per Day
+
+
+
+
+WorkSpace
+
+WorkSpace / is an Isolated Area Like Folder or Directory to Publish  Reports / Datasets / Dataflows  and Reporting Other Files 
+
+
+Two Types Of Workspaces 
+=======================
+			My WorkSpace ( For Testing and Development Purpose) 
+					 Power Bi Service Automatically Created  at The time Power Bi Account Creation,
+					 not possible add other users.
+
+			User Created WorkSpace ( Project Workspace).
+
+					 Production , Development , Test  
+					 We Add Users With Specific Roles 
+					 We Create App / Publish App...etc 
+	
+
+WorkSpace Roles 
+===============
+			Admin
+			Member
+			Contributor 
+			Viewer 
+
+Admin
+
+Create, edit, delete, copy and publish reports and content in a workspace.
+Publish, Update, or Share App in workspace.
+Access, view and interact with reports and dashboards in a workspace.
+Configure and modify Schedule data refreshes and Gateway.
+Add or Remove other users including other admins.
+
+
+Member
+
+Can all the tasks that are associated with admins but can not add or remove users.
+Can’t delete the workspace.
+Can add other users to the viewer or contributor role.
+
+
+Contributor
+
+Can create, edit, delete, copy and publish content and reports within a workspace.
+Cannot publish, update, or edit an app in a workspace unless given this ability by admins or members.
+Cannot add or remove users.
+Modify Gateway and schedule data refreshes.
+
+Viewer
+
+Can only view a report or dashboard in a workspace, also can interact with visuals.
+Cannot add or remove users.
+Can read data that is stored in workspace dataflows.
+
+
+	
+Power Bi Service 
+
+				LocalPC :  PbiX File
+
+			After Publishing Power Bi Service Pbix File WIll Split into 2 files
+
+
+				-> Report ( Visual Information)
+
+				-> Dataset ( Data + Power Query code + Power Pivot Code )
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
